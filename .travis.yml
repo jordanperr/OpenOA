@@ -6,12 +6,14 @@ python:
 
 install:
   - pip install .
+  - pip install codecov
 
 script:
   - python setup.py test
 
 after_success:
 - echo "Success!"
+- codecov
 
 after_failure:
 - echo "Failure!"
