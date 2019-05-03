@@ -6,13 +6,10 @@ OpenOA
 
 This library provides a generic framework for working with large timeseries data from wind plants. Its development
 has been motivated by the WP3 Benchmarking (PRUF) project, which aims to provide a reference implementation for
-plant-level performance assessment.
+plant-level performance assessment. In addition to the analysis methodologies, OpenOA aims to provide
+standardization across datasets commonly used for operational analysis in the wind industry.
 
-The implementation makes use of a flexible backend, so that data loading, processing, and analysis can be performed
-locally (e.g., with Pandas DataFrames), in a semi-distributed manner (e.g., with Dask DataFrames), or in a fully
-distributed matter (e.g., with Spark DataFrames).
-
-Analysis routines are grouped by purpose into methods, and these methods in turn rely on more abstract toolkits.
+Analysis routines are grouped by purpose into methods, and these methods in turn rely on lower level toolkits.
 In addition to the provided analysis methods, anyone can write their own, which is intended to provide natural
 growth of tools within this framework.
 
