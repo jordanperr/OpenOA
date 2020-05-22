@@ -26,7 +26,7 @@ OpenOA. To create and activate such a new environment with the name "openoa-env"
 conda create --name openoa-env python=3
 conda activate openoa-env
 ```
-
+ 
 #### Microsoft Windows:
 
 For users Microsoft Windows, the Anaconda python distribution is required. The reason is that pip on windows requires
